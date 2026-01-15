@@ -1,13 +1,8 @@
 <div id="top"></div>
 
-# Scouting P.A.S.S.
+# Scouting 1647
 
-#### A scouting system for FIRST FRC competitions developed by [PWNAGE - Team #2451](https://pwnagerobotics.org).
-
-<a href="https://PWNAGERobotics.github.io/ScoutingPASS">Live Demo</a> . <a href="https://PWNAGERobotics.github.io/ScoutingPASS/pit.html">Pit Scouting</a> . <a href="#getting-started">Getting Started</a> . <a href="#faq">FAQ</a>
-
-![Stars](https://img.shields.io/github/stars/PWNAGERobotics/ScoutingPASS?style=plastic) ![Forks](https://img.shields.io/github/forks/PWNAGERobotics/ScoutingPASS?style=plastic) ![watchers](https://img.shields.io/github/watchers/PWNAGERobotics/ScoutingPASS?style=plastic)
-<h1></h1>
+#### A scouting system for FIRST FRC competitions
 
 
 <!-- TABLE OF CONTENTS -->
@@ -50,14 +45,11 @@
 <p align="right">(<a href="#top">back to top</a>)</p>
 <div id="live-app"></div>
 
-## Live Application
-This repository is hosted on GitHub Pages.  You can view a live version of it here: https://PWNAGERobotics.github.io/ScoutingPASS.  (You can host your version of the ScoutingPASS application on GitHub Pages as well.)
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 <div id="description"></div>
 
 ## Description:
-Scouting PASS is a web page displayed in a browser.  It consists of 5 "swipeable" pages each representing a specific aspect of a FRC match: Pre-Match, Autonomous, Teleop, End Game and Post-Match.  A configuration file allows the screens to be easily modified to collect any metrics that are important for your scouting needs.  The scouter can use the "Next" or "Prev" buttons or a swiping motion on touchscreens to move between pages.  A QR code is dynamically generated on the last page.  This QR code can be scanned to transfer the data to your data repository.  The QR code can also be stored for processing later using a screenshot or camera.  Once the data has been transferred, the scout hits the clear button and the form is cleared out and ready for the next match.
+Scouting 1647 is a web page displayed in a browser.  It consists of 5 "swipeable" pages each representing a specific aspect of a FRC match: Pre-Match, Autonomous, Teleop, End Game and Post-Match.  A configuration file allows the screens to be easily modified to collect any metrics that are important for your scouting needs.  The scouter can use the "Next" or "Prev" buttons or a swiping motion on touchscreens to move between pages.  A QR code is dynamically generated on the last page.  This QR code can be scanned to transfer the data to your data repository.  The QR code can also be stored for processing later using a screenshot or camera.  Once the data has been transferred, the scout hits the clear button and the form is cleared out and ready for the next match.
 
 Configuration is as easy as creating a JSON file with the fields that your scouting team wants to track.  Some fields are common to all teams and years.  The basic fields are:
 * Scouter - who is scouting this robot
@@ -94,29 +86,16 @@ It's really simple to get started:
 * Change configuration file (REBUILT example in [2026](2026) folder)
   * Change the data elements to capture (OPTIONAL: only if desired)
 * Enable GitHub Pages in your repository settings ([GitHub Pages Instructions](https://pages.github.com/))
-* Load page via GitHub pages (https://<your_username>.github.io/ScoutingPASS)
 <p>
 To enable The Blue Alliance API:
 
 * Put your API token in the authKey variable in resources/js/TBAInterface.js.  (line 4)
 * Reload your page.
 
-Note: For this to work, the schedule has to be posted to The Blue Alliance.  That usually doesn't happen until just before the event. (a few days to a few hours)  To test this you can point it to a past event.   Set the event to 2020ilch.   Reload the page to load the schedule for that event. Select Match 6 and Blue-2.  You should see it populate the Team # to 2451, and the next line will show the team name, PWNAGE.
+Note: For this to work, the schedule has to be posted to The Blue Alliance.  That usually doesn't happen until just before the event. (a few days to a few hours)  To test this you can point it to a past event.   Set the event to Seneca.   Reload the page to load the schedule for that event. Select Match 6 and Blue-2.  You should see it populate the Team # to 1647, and the next line will show the team name.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 <div id="pit-scouting"></div>
-
-## Pit Scouting:
-
-ScountingPASS now supports Pit Scouting
-
-To access the pit scouting page, add '/pit.html' to the end of your URL.  (i.e. http://pwnagerobotics.github.io/ScoutingPASS/pit.html)
-
-It works almost exactly like the main scouting pages, except there is only one page of input.   Once your scouters have filled out the information, swipe left to display the QR code.   That QR code can be scanned to push the data to Excel.
-
-The default configuration file is 2026/rebuilt_pit_config.js.   You can modify that configuration to meet your needs.
-
-We realize that you may not want to lug your computer around the pits to scan each QR code.  Our recommendation is to have your scouters take screenshots of the QR codes.   Then when they are back to the scouting computer, just go through the photos to scan each QR code.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 <div id="how-we-scout"></div>
@@ -201,7 +180,6 @@ Note: The Auto Start (as) element is special in that it will only keep track of 
 * Better error messages
 * Pre-parse JSON for validity to avoid cryptic errors when parsing
 * Incorporate [Statbotics.io](http://statbotics.io/) data
-* See [issues](https://github.com/PWNAGERobotics/ScoutingPASS/issues) for more
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 <div id="license"></div>
