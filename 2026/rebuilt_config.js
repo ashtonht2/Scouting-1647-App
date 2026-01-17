@@ -185,7 +185,7 @@ var config_data = `
       "code": "tre",
       "type": "bool"
     },
-    { "name": "Wallbot? (Garded the high top)",
+    { "name": "Wallbot? (Guarded the high top)",
       "code": "wbt",
       "type": "bool"
     },
