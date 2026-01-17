@@ -134,7 +134,7 @@ var config_data = `
       "choices": {
         "1": "Level 1<br>",
         "2": "Level 2<br>",
-        "3": "Level 2<br>",
+        "3": "Level 3<br>",
         "a": "Attempted<br>",
         "x": "Not Attempted"
       },
@@ -195,11 +195,6 @@ var config_data = `
     },
     { "name": "Tippy<br>(almost tipped over)",
       "code": "tip",
-      "type": "bool"
-    },
-    { "name": "Make good<br>alliance partner?",
-      "tooltip": "Would you want this robot on your alliance in eliminations?",
-      "code": "all",
       "type": "bool"
     },
     { "name": "Comments",
