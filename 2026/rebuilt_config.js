@@ -203,5 +203,3 @@ var config_data = `
       "size": 15,
       "maxSize": 55
     }
-  ]
-}`;
